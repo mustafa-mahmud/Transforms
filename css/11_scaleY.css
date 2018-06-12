@@ -32,3 +32,12 @@ p{text-align: center;}
     color: white;
     text-align: center;
 }
+.yPosInc{
+    transform: scaleY(2);
+}
+.yPosDec{
+    transform: scaleY(0.5);
+}
+.yNeg{
+    transform: scaleY(-2);/*negative value works as positive value*/
+}

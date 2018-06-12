@@ -19,24 +19,55 @@ and open the template in the editor.
         <![endif]-->
         <title>Transforms</title>
         <!----CSS----->
-        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/09_scale.css" />
         <link rel="stylesheet" href="css/bootstrap.css" />
         <link rel="stylesheet" href="css/practise.css" />
         <link rel="stylesheet" href="web-fonts-with-css/css/fontawesome-all.min.css" />
         <!-----JS------->
         <script src="js/jquery-3.2.1.min.js"></script>
         <script src="js/bootstrap.js"></script>
+        <style>
+            .row div{
+                width: 200px;
+            }
+        </style>
     </head>
     <body>
         <div class="container-fluid">
             <div class="row">
                 <div>
                     <div class="parent">
-                        <div class="all">
-
+                        <div class="all one">
                         </div>
                     </div>
-                    <p>info:</p>
+                    <p>X+Y-axis</p>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <div class="parent">
+                        <div class="all twoX">
+                        </div>
+                    </div>
+                    <p>X-axis</p>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <div class="parent">
+                        <div class="all twoY">
+                        </div>
+                    </div>
+                    <p>Y-axis</p>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <div class="parent">
+                        <div class="all twoXY">
+                        </div>
+                    </div>
+                    <p>X+Y-axis</p>
                 </div>
             </div>
         </div>

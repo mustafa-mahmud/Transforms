@@ -19,7 +19,7 @@ and open the template in the editor.
         <![endif]-->
         <title>Transforms</title>
         <!----CSS----->
-        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/16_skewY.css" />
         <link rel="stylesheet" href="css/bootstrap.css" />
         <link rel="stylesheet" href="css/practise.css" />
         <link rel="stylesheet" href="web-fonts-with-css/css/fontawesome-all.min.css" />
@@ -32,11 +32,21 @@ and open the template in the editor.
             <div class="row">
                 <div>
                     <div class="parent">
-                        <div class="all">
+                        <div class="all skewY">
 
                         </div>
                     </div>
-                    <p>info:</p>
+                    <p>info:skewY positive</p>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <div class="parent">
+                        <div class="all skewY2">
+
+                        </div>
+                    </div>
+                    <p>info:skewY negative</p>
                 </div>
             </div>
         </div>

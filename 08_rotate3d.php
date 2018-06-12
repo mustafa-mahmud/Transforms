@@ -19,24 +19,51 @@ and open the template in the editor.
         <![endif]-->
         <title>Transforms</title>
         <!----CSS----->
-        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/08_rotate3d.css" />
         <link rel="stylesheet" href="css/bootstrap.css" />
         <link rel="stylesheet" href="css/practise.css" />
         <link rel="stylesheet" href="web-fonts-with-css/css/fontawesome-all.min.css" />
         <!-----JS------->
         <script src="js/jquery-3.2.1.min.js"></script>
         <script src="js/bootstrap.js"></script>
+        <style>p{text-align: center;}.row div{width: 200px;margin-bottom: 30px;}</style>
     </head>
     <body>
         <div class="container-fluid">
             <div class="row">
                 <div>
                     <div class="parent">
-                        <div class="all">
-
+                        <div class="all x3d">
                         </div>
                     </div>
-                    <p>info:</p>
+                    <p>rotate3d() with X-axis</p>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <div class="parent">
+                        <div class="all y3d">
+                        </div>
+                    </div>
+                    <p>rotate3d() with Y-axis</p>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <div class="parent">
+                        <div class="all z3d">
+                        </div>
+                    </div>
+                    <p>rotate3d() with Z-axis</p>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <div class="parent">
+                        <div class="all allAxis3d">
+                        </div>
+                    </div>
+                    <p>rotate3d() with X,Y,Z-axis</p>
                 </div>
             </div>
         </div>

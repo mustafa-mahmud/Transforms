@@ -7,18 +7,16 @@ and open the template in the editor.
     Created on : Jun 9, 2018, 9:30:42 PM
     Author     : mithu
 */
-p{text-align: center;}
-.row div{text-align: center;margin: 0 auto;}
+
 .parent{
     width: 200px;
     height: 100px;
     border-radius: 5px;
     background: #1D66AD;
+    margin: 100px 50px 0px 50px;
     box-sizing: border-box;
     border: 1px solid green;
     position: relative;
-    perspective: 500px;
-    margin-top: 50px !important;
 }
 .all{
     width: 100%;
@@ -31,4 +29,31 @@ p{text-align: center;}
     line-height: 100px;
     color: white;
     text-align: center;
+}
+.one{
+    transform: translate(50px);
+}
+.oneNegative{
+    transform: translate(-50px);
+}
+.two{
+    transform: translate(50px,20px);
+}
+.towNegative1{
+    transform: translate(-50px,20px);
+}
+.towNegative2{
+    transform: translate(50px,-20px);
+}
+.x{
+    transform: translateX(50px);
+}
+.xNegative{
+    transform: translateX(-50px);
+}
+.y{
+    transform: translateY(50px);
+}
+.yNegative{
+    transform: translateY(-50px);
 }

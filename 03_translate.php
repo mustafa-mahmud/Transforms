@@ -19,7 +19,7 @@ and open the template in the editor.
         <![endif]-->
         <title>Transforms</title>
         <!----CSS----->
-        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/03_translate.css" />
         <link rel="stylesheet" href="css/bootstrap.css" />
         <link rel="stylesheet" href="css/practise.css" />
         <link rel="stylesheet" href="web-fonts-with-css/css/fontawesome-all.min.css" />
@@ -30,13 +30,32 @@ and open the template in the editor.
     <body>
         <div class="container-fluid">
             <div class="row">
-                <div>
-                    <div class="parent">
-                        <div class="all">
-
-                        </div>
-                    </div>
-                    <p>info:</p>
+                <div class="parent">
+                    <div class="all one">translate(50px)</div>
+                </div>
+                <div class="parent">
+                    <div class="all oneNegative">translate(-50px)</div>
+                </div>
+                <div class="parent">
+                    <div class="all two">translate(50px,20px)</div>
+                </div>
+                <div class="parent">
+                    <div class="all towNegative1">translate(-50px,20px)</div>
+                </div>
+                <div class="parent">
+                    <div class="all towNegative2">translate(50px,-20px)</div>
+                </div>
+                <div class="parent">
+                    <div class="all x">translateX(50px)</div>
+                </div>
+                <div class="parent">
+                    <div class="all xNegative">translateX(-50px)</div>
+                </div>
+                <div class="parent">
+                    <div class="all y">translateY(50px)</div>
+                </div>
+                <div class="parent">
+                    <div class="all yNegative">translateY(-50px)</div>
                 </div>
             </div>
         </div>

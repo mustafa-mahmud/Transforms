@@ -19,24 +19,31 @@ and open the template in the editor.
         <![endif]-->
         <title>Transforms</title>
         <!----CSS----->
-        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/07_rotateZ.css" />
         <link rel="stylesheet" href="css/bootstrap.css" />
         <link rel="stylesheet" href="css/practise.css" />
         <link rel="stylesheet" href="web-fonts-with-css/css/fontawesome-all.min.css" />
         <!-----JS------->
         <script src="js/jquery-3.2.1.min.js"></script>
         <script src="js/bootstrap.js"></script>
+        <style>
+            .row div{text-align: center;}
+        </style>
     </head>
     <body>
         <div class="container-fluid">
             <div class="row">
                 <div>
                     <div class="parent">
-                        <div class="all">
-
-                        </div>
+                        <div class="all Z">rotateZ</div><br/>
                     </div>
-                    <p>info:</p>
+                    <p>rotateZ() positive</p>
+                </div>
+                <div>
+                    <div class="parent">
+                        <div class="all Z_neg">rotateZ</div><br/>
+                    </div>
+                    <p>rotateZ() negative</p>
                 </div>
             </div>
         </div>

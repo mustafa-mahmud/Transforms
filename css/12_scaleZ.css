@@ -17,7 +17,6 @@ p{text-align: center;}
     box-sizing: border-box;
     border: 1px solid green;
     position: relative;
-    perspective: 500px;
     margin-top: 50px !important;
 }
 .all{
@@ -31,4 +30,16 @@ p{text-align: center;}
     line-height: 100px;
     color: white;
     text-align: center;
+}
+.zPosInc{
+    transform: perspective(400px);
+    transform: scaleZ(2);
+}
+.zPosDec{
+    transform: perspective(400px);
+    transform: scaleZ(0.5);
+}
+.zNeg{
+    transform: perspective(400px);
+    transform: scaleZ(-2);/*negative value works as positive value*/
 }

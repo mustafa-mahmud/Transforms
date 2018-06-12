@@ -32,3 +32,9 @@ p{text-align: center;}
     color: white;
     text-align: center;
 }
+.skew{
+    transform: skew(20deg);
+}
+.skew2{
+    transform: skew(20deg,30deg);
+}

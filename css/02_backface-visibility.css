@@ -1,0 +1,51 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 9, 2018, 6:56:56 PM
+    Author     : MITHU
+*/
+
+.my_container{
+    /*activate 3D space*/
+    perspective: 800px;
+    padding: 1em;
+    max-width: 700px;
+    text-align: center;
+}
+.my_card{
+    width: 300px;
+    height: 400px;
+    position: relative;
+    margin: 0 auto;
+    background: olive;
+    transition: all 0.4s linear;
+    /*allow child elements to be positioned in 3D space of their own*/
+    transform-style: preserve-3d;
+}
+.face{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 350px;
+    color: white;
+    /*prevent the front face from showing through the back*/
+    backface-visibility: hidden;
+}
+.front{
+    background: red;
+}
+.back{
+    background: black;
+    /*initially rotate the element in the back
+    so that when the card is flipped , it faces the viewer*/
+    transform: rotateY(180deg);
+}
+.my_card:hover{
+    /*when the card is hovered , rotate it. This will allow 
+    the back face to face the viewer*/
+    transform: rotateY(180deg);
+}

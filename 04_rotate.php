@@ -19,7 +19,7 @@ and open the template in the editor.
         <![endif]-->
         <title>Transforms</title>
         <!----CSS----->
-        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/04_rotate.css" />
         <link rel="stylesheet" href="css/bootstrap.css" />
         <link rel="stylesheet" href="css/practise.css" />
         <link rel="stylesheet" href="web-fonts-with-css/css/fontawesome-all.min.css" />
@@ -30,13 +30,11 @@ and open the template in the editor.
     <body>
         <div class="container-fluid">
             <div class="row">
-                <div>
-                    <div class="parent">
-                        <div class="all">
-
-                        </div>
-                    </div>
-                    <p>info:</p>
+                <div class="parent">
+                    <div class="all one">rotate(90deg)</div>
+                </div>
+                <div class="parent">
+                    <div class="all oneNegative">rotate(-90deg)</div>
                 </div>
             </div>
         </div>

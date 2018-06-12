@@ -32,3 +32,9 @@ p{text-align: center;}
     color: white;
     text-align: center;
 }
+.skewY{
+    transform: skewY(30deg);
+}
+.skewY2{
+    transform: skewY(-30deg);
+}

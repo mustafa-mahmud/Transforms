@@ -32,3 +32,12 @@ p{text-align: center;}
     color: white;
     text-align: center;
 }
+.xPosInc{
+    transform: scaleX(2);
+}
+.xPosDec{
+    transform: scaleX(0.5);
+}
+.xNeg{
+    transform: scaleX(-2);/*negative value works as positive value*/
+}

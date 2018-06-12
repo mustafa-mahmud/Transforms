@@ -19,7 +19,7 @@ and open the template in the editor.
         <![endif]-->
         <title>Transforms</title>
         <!----CSS----->
-        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/10_scaleX.css" />
         <link rel="stylesheet" href="css/bootstrap.css" />
         <link rel="stylesheet" href="css/practise.css" />
         <link rel="stylesheet" href="web-fonts-with-css/css/fontawesome-all.min.css" />
@@ -32,11 +32,28 @@ and open the template in the editor.
             <div class="row">
                 <div>
                     <div class="parent">
-                        <div class="all">
-
+                        <div class="all xPosInc">
                         </div>
                     </div>
-                    <p>info:</p>
+                    <p>info:scaleX() positive Increase</p>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <div class="parent">
+                        <div class="all xPosDec">
+                        </div>
+                    </div>
+                    <p>info:scaleX() positive Decrease</p>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <div class="parent">
+                        <div class="all xNeg">
+                        </div>
+                    </div>
+                    <p>info:scaleX() negative, negative values not works</p>
                 </div>
             </div>
         </div>
